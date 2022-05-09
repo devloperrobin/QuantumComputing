@@ -1,17 +1,15 @@
-﻿using System;
-using Microsoft.Quantum.Simulation.Core;
-using Microsoft.Quantum.Simulation.Simulators;
-using QuantumComputing.Superposition;
+﻿using QuantumComputing.ProjectDriver;
 
-int ones = 0;
-using (var qsim = new QuantumSimulator())
+var proj = Environment.GetCommandLineArgs()[0];
+switch (proj?.ToLowerInvariant())
 {
-	for (int i = 0; i < 1000; i++)
-	{
-		var result = await Superposition.Run(qsim);
-		if (result == Result.One)
-			ones++;
-	}
+	case "superposition":
+		await SuperpositionDriver.Run();
+		break;
+	case "entanglement":
+		await EntanglementDriver.Run();
+		break;
+	default:
+		Console.WriteLine($"No driver found for '{proj}'");
+		break;
 }
-Console.WriteLine(" One: " + ones);
-Console.WriteLine("Zero: " + (1000 - ones));

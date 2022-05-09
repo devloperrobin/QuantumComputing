@@ -4,3 +4,5 @@ ProjectDriver is the project that runs the quantum projects. This needs to be a 
 All quantum projects are Q# class libraries.
 
 There is also an option to make runnable Q# projects without .NET driver project, but for now I tried this way first.
+
+Use dotnet run -- <quantumProjectName> to run a specific quantum project

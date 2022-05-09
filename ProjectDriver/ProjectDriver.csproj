@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Superposition\Superposition.csproj" />
+    <ProjectReference Include="..\Entanglement\Entanglement.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
