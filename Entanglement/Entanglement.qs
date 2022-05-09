@@ -1,9 +1,9 @@
-﻿namespace QuantumComputing.Entanglement
+﻿namespace Entanglement
 {
 	open Microsoft.Quantum.Canon;
 	open Microsoft.Quantum.Intrinsic;
 	
-	operation Entanglement() : (Result, Result) {
+	operation EntanglementOperation() : (Result, Result) {
 		mutable qubitOneState = Zero;
 		mutable qubitTwoState = Zero;
 		

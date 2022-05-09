@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDriver", "ProjectDriver\ProjectDriver.csproj", "{A0A40B77-EB7C-41D7-A079-22BCAC040573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Superposition", "Superposition\Superposition.csproj", "{D032A58E-E0A0-4FCD-9E14-6B6A93F61A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entanglement", "Entanglement\Entanglement.csproj", "{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A40B77-EB7C-41D7-A079-22BCAC040573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A40B77-EB7C-41D7-A079-22BCAC040573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A40B77-EB7C-41D7-A079-22BCAC040573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A40B77-EB7C-41D7-A079-22BCAC040573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D032A58E-E0A0-4FCD-9E14-6B6A93F61A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D032A58E-E0A0-4FCD-9E14-6B6A93F61A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D032A58E-E0A0-4FCD-9E14-6B6A93F61A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D032A58E-E0A0-4FCD-9E14-6B6A93F61A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

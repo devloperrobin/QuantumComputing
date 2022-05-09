@@ -1,9 +1,8 @@
-using System;
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
-using QuantumComputing.Superposition;
+using Superposition;
 
-namespace QuantumComputing.ProjectDriver
+namespace ProjectDriver
 {
 	internal class SuperpositionDriver
 	{
@@ -14,7 +13,7 @@ namespace QuantumComputing.ProjectDriver
 			{
 				for (int i = 0; i < 1000; i++)
 				{
-					var result = await Superposition.Run(qsim);
+					var result = await SuperpositionOperation.Run(qsim);
 					if (result == Result.One)
 						ones++;
 				}

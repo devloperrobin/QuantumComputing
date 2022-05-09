@@ -1,9 +1,8 @@
-using System;
+using Entanglement;
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
-using QuantumComputing.Entanglement;
 
-namespace QuantumComputing.ProjectDriver
+namespace ProjectDriver
 {
 	internal class EntanglementDriver
 	{
@@ -15,7 +14,7 @@ namespace QuantumComputing.ProjectDriver
 			{
 				for (int i = 0; i < 1000; i++)
 				{
-					var (qubitOne, qubitTwo) = await Entanglement.Run(qsim);
+					var (qubitOne, qubitTwo) = await EntanglementOperation.Run(qsim);
 					
 					if (qubitOne == Result.One)
 						ones++;

@@ -1,6 +1,6 @@
-﻿using QuantumComputing.ProjectDriver;
+﻿using ProjectDriver;
 
-var proj = Environment.GetCommandLineArgs()[0];
+var proj = Environment.GetCommandLineArgs()[1];
 switch (proj?.ToLowerInvariant())
 {
 	case "superposition":
