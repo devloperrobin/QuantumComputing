@@ -8,11 +8,11 @@ namespace ProjectDriver
 	{
 		public static async Task Run()
 		{
-			int ones = 0;
-			int equal = 0;
+			var ones = 0;
+			var equal = 0;
 			using (var qsim = new QuantumSimulator())
 			{
-				for (int i = 0; i < 1000; i++)
+				for (var i = 0; i < 1000; i++)
 				{
 					var (qubitOne, qubitTwo) = await EntanglementOperation.Run(qsim);
 					

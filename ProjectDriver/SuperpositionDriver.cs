@@ -8,10 +8,10 @@ namespace ProjectDriver
 	{
 		public static async Task Run()
 		{
-			int ones = 0;
+			var ones = 0;
 			using (var qsim = new QuantumSimulator())
 			{
-				for (int i = 0; i < 1000; i++)
+				for (var i = 0; i < 1000; i++)
 				{
 					var result = await SuperpositionOperation.Run(qsim);
 					if (result == Result.One)
