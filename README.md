@@ -5,4 +5,8 @@ All quantum projects are Q# class libraries.
 
 There is also an option to make runnable Q# projects without .NET driver project, but for now I tried this way first.
 
-Use dotnet run -- <quantumProjectName> to run a specific quantum project
+Use 
+```
+dotnet run -- <quantumProjectName> 
+```
+to run a specific quantum project
