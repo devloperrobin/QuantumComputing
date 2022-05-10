@@ -23,6 +23,7 @@ namespace ProjectDriver
 						equal++;
 				}
 			}
+			Console.WriteLine("Entanglement result:");
 			Console.WriteLine($"  One: {ones}");
 			Console.WriteLine($" Zero: {1000 - ones}");
 			Console.WriteLine($"Equal: {equal/1000*100}%");

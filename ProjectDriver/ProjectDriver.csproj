@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Superposition\Superposition.csproj" />
     <ProjectReference Include="..\Entanglement\Entanglement.csproj" />
+    <ProjectReference Include="..\Teleportation\Teleportation.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

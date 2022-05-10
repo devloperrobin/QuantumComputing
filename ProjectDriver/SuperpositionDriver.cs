@@ -18,6 +18,7 @@ namespace ProjectDriver
 						ones++;
 				}
 			}
+			Console.WriteLine("Superposition result:");
 			Console.WriteLine($"  One: {ones}");
 			Console.WriteLine($" Zero: {1000 - ones}");
 		}
