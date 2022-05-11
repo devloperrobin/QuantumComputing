@@ -16,7 +16,7 @@ namespace ProjectDriver
 				for (var i = 0; i < 1000; i++)
 				{
 					var sentMessage = random.Next(2) == 0;
-					var receivedMessage = await Teleportation.Run(qsim);
+					var receivedMessage = await TeleportationOperation.Run(qsim, sentMessage);
 					if (receivedMessage)
 						trues++;
 					if (receivedMessage == sentMessage)
