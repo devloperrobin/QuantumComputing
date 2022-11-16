@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Superposition", "Superposit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entanglement", "Entanglement\Entanglement.csproj", "{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleportation", "Teleportation\Teleportation.csproj", "{309F5F6C-7BAD-44CA-B9F5-4D301C11E9B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D6D03BB-85A0-4204-8BB3-F5F6B3717CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309F5F6C-7BAD-44CA-B9F5-4D301C11E9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309F5F6C-7BAD-44CA-B9F5-4D301C11E9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309F5F6C-7BAD-44CA-B9F5-4D301C11E9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309F5F6C-7BAD-44CA-B9F5-4D301C11E9B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
