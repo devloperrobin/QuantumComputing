@@ -1,7 +1,7 @@
 Learning about quantum computing by following the Pluralsight course
 "Quantum Computing: Getting Started with Q#"
 
-ProjectDriver is the project that runs the quantum projects. This needs to be a separate project in .NET 6.
+ProjectDriver is a .NET 7 project that runs the quantum projects. 
 All quantum projects are Q# class libraries.
 
 There is also an option to make runnable Q# projects without .NET driver project, but for now I tried this way first.
@@ -22,5 +22,3 @@ Currently available experiments:
 - Superposition
 - Entanglement
 - Teleportation
-
-NOTE: Code may be broken as QDK is not working on apple silicon on which I am writing the code. I'll test it later on windows and fix it again.
